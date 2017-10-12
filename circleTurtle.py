@@ -1,6 +1,7 @@
 import turtle
 import math
 
+#created a function for creating circles with trigonometry
 def circleTurtle():
     deg = 0
     r = 150
@@ -10,7 +11,7 @@ def circleTurtle():
         turtle.goto(xcor, ycor)
         deg += math.radians(1)
 
-
+#turtle setup
 def main():
     turtle.delay(0)
     turtle.pu()
